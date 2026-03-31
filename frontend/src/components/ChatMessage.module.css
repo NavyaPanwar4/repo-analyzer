@@ -1,0 +1,62 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 85%;
+}
+
+.user { align-self: flex-end; align-items: flex-end; }
+.assistant { align-self: flex-start; align-items: flex-start; }
+
+.label {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0 4px;
+}
+
+.bubble {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+
+.user .bubble {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+}
+
+.error { border-color: var(--red) !important; }
+
+.text {
+  font-size: 14px;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+.chunks { margin-top: 14px; display: flex; flex-direction: column; gap: 10px; }
+
+.toggle {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  color: var(--text-muted);
+  font-family: var(--font);
+  font-size: 12px;
+  padding: 4px 10px;
+  cursor: pointer;
+  transition: all 0.15s;
+  align-self: flex-start;
+}
+
+.toggle:hover { border-color: var(--accent); color: var(--accent); }
+
+.chunk { display: flex; flex-direction: column; gap: 6px; }
+
+.chunkMeta {
+  font-size: 11px;
+  color: var(--text-muted);
+  padding: 0 2px;
+}
