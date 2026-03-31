@@ -343,32 +343,6 @@ Reduce context size by changing `n_results=8` to `n_results=4` in `backend/app/s
 
 ---
 
-## 🗺️ Roadmap
-
-- [ ] Multi-language expansion (Go, Ruby, PHP)
-- [ ] Fully offline mode via Ollama
-- [ ] GitHub PR integration
-- [ ] Docker Compose deployment
-- [ ] Persistent repo history across sessions
-- [ ] Private repo support via GitHub token
-- [ ] Export chat as Markdown report
-- [ ] Auto-generated architecture diagrams
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please open an issue first for major changes.
-
-```bash
-git checkout -b feature/your-feature
-git commit -m "feat: add your feature"
-git push origin feature/your-feature
-# then open a pull request
-```
-
----
-
 ## 📄 License
 
 MIT License © 2025
